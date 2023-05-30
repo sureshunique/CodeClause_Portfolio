@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainsect{
+    height: 900px;
+    background-attachment: fixed;
+    background-position: centre;
+    background-size: cover;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('contbg.png');
+}
+.mainsect .head h1,.mainsect .head p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    color: white;
+}
+.addsect{
+    display: flex;
+}
+.content{
+    width: 50%;
+    height: 70vh;
+}
+.content .content-icon{
+    margin-top: 30px;
+    text-align: center;
+
+}
+.content .content-icon i{
+    font-size: 30px;
+    background-color: #aaa;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 42px;
+}
+.content .content-info{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.content .content-info h1{
+    color: skyblue;
+    font-weight: bold;
+}
+/* ------- */
+.boxmodel{
+    background-color: #ffff;
+    height: 500px;
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 10px skyblue;
+    display: flex;
+}
+.formt{
+    float: right;
+    width: 100%;
+    padding: 0 30px;
+    padding-top: 20px;
+}
+.type1{
+    background-color: grey;
+    width: 50%;
+    display: inline;
+}
+.type1 h1,.type2 h1{
+    text-align: center;
+    color: skyblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+.type1 input{
+    height:30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    width: 300px;
+    color: grey;
+}
+textarea{
+    margin-left: 35px;
+    color: darkcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    resize: none;
+}
+.btn button{
+    font-size: 15px;
+    font-weight:bold;
+    font-style: italic;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+}
+button:hover{
+    background-color: skyblue;
+    color: white;
+}
